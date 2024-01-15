@@ -13,7 +13,7 @@
 <div align="center">
   <img src="logo.jpg" alt="Logo">
 
-<h3 align="center">Reporting and analyzing the compiler time of six Sorting Algorithms</h3>
+<h3 align="center"><a href="https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Ioannou_Report.pdf">Reporting and analyzing the compiler time of six Sorting Algorithms</a></h3>
 
   <p align="center">
     In this programming assignment, I investigated the compiler time of <b>six different Sorting Algorithms</b> for different input sizes. The six Sorting Algorithms analyzed in this report are: <b>Insertion Sort, Merge Sort, Heap Sort, Quick Sort, Randomized Quick Sort, and LSD Radix Sort</b>. A code that was built from scratch was used to generate random arrays of different sizes from 10 to 1000000 an excessively test each Sorting Algorithm. The code is based on the pseudocodes found in the textbook: <b>"Introduction to Algorithms, THIRD EDITION"</b> by Cormen Leiserson,Rivest, and Stein and published by The MIT Press. The program was repeated twice and the average compiler time was reported.
@@ -143,7 +143,7 @@ The report of this project is located [here](https://github.com/GeorgiosIoannouC
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
-## Analyis
+## Analysis
 
 As I stated in my hypothesis in the [Report](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Ioannou_Report.pdf) and by studying Table 3 and Figure 1, the **slowest Sorting Algorithm is Insertion Sort** and the **fastest Sorting Algorithm is LSD Radix Sort** among these six Algorithms. I was also correct that Quick Sort beats Heap Sort which beats Merge Sort. **However, Randomized Quick Sort (picking random pivot) is not faster than Quick Sort (picking the last element as the pivot)**. In fact, Randomized Quick Sort is sometimes slower than Heap Sort such as in the case when the input size is N=1000000. However, as the table shows, **Insertion Sort even though it is a quadratic Sorting Algorithm it is faster than Merge Sort, Randomized Quick Sort, and LSD Radix Sort for small array sizes and nearly sorted arrays**. Insertion Sort starts to be slow when the input size N gets larger.
 
