@@ -33,6 +33,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#sorting-algorithms">Sorting Algorithms</a></li>
         <li><a href="#key-feature">Key Feature</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -57,6 +58,13 @@
 ## About The Project
 
 <img src="logo.jpg" alt="Logo" width="200" height="100">
+
+### Sorting Algorithms
+
+<img src="time_complexity.png" alt="Sorting Algorithms">
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
 
 ### Key Feature
 
@@ -137,7 +145,15 @@ The report of this project is located [here](https://github.com/GeorgiosIoannouC
 
 ## Analyis
 
-As I stated in my hypothesis and by studying Table 3 and Figure 1, the **slowest Sorting Algorithm is Insertion Sort** and the **fastest Sorting Algorithm is LSD Radix Sort** among these six Algorithms. I was also correct that Quick Sort beats Heap Sort which beats Merge Sort. **However, Randomized Quick Sort (picking random pivot) is not faster than Quick Sort (picking the last element as the pivot)**. In fact, Randomized Quick Sort is sometimes slower than Heap Sort such as in the case when the input size is N=1000000. However, as the table shows, **Insertion Sort even though it is a quadratic Sorting Algorithm it is faster than Merge Sort, Randomized Quick Sort, and LSD Radix Sort for small array sizes and nearly sorted arrays**. Insertion Sort starts to be slow when the input size N gets larger.
+As I stated in my hypothesis in the [Report](https://github.com/GeorgiosIoannouCoder/sorting-algorithms/blob/main/Ioannou_Report.pdf) and by studying Table 3 and Figure 1, the **slowest Sorting Algorithm is Insertion Sort** and the **fastest Sorting Algorithm is LSD Radix Sort** among these six Algorithms. I was also correct that Quick Sort beats Heap Sort which beats Merge Sort. **However, Randomized Quick Sort (picking random pivot) is not faster than Quick Sort (picking the last element as the pivot)**. In fact, Randomized Quick Sort is sometimes slower than Heap Sort such as in the case when the input size is N=1000000. However, as the table shows, **Insertion Sort even though it is a quadratic Sorting Algorithm it is faster than Merge Sort, Randomized Quick Sort, and LSD Radix Sort for small array sizes and nearly sorted arrays**. Insertion Sort starts to be slow when the input size N gets larger.
+
+<img src="Table_1_excel.png" alt="Table 1">
+
+<img src="Table_2_excel.png" alt="Table 2">
+
+<img src="Table_3_excel.png" alt="Table 3">
+
+<img src="time_vs_input.png" alt="Time versus input">
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
