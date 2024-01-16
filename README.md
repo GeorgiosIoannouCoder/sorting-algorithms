@@ -68,7 +68,7 @@
 
 ### Key Feature
 
-1. **Exscessively test each Sorting Algorithm with random arrays of different sizes from 10 to 1000000.**
+1. **Excessively test each Sorting Algorithm with random arrays of different sizes from 10 to 1000000.**
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
