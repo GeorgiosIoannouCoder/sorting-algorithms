@@ -87,9 +87,21 @@
 
 ### Prerequisites
 
-1. Please make sure you have Visual Studio or Visual Studio Code with the C/C++ extension installed. You can download Visual Studio [here](https://visualstudio.microsoft.com/downloads/). You can download Visual Studio Code [here](https://code.visualstudio.com/download).
+**NOTE:** How to check if Git is installed and what is its version
 
-NOTE: You can use whatever code editor that you want. This project was created and tested with Visual Studio.
+```sh
+  git -v
+```
+
+1. Please make sure you have git installed
+
+   - Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
+   - Mac: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
+   - Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
+
+2. Please make sure you have Visual Studio or Visual Studio Code with the C/C++ extension installed. You can download Visual Studio [here](https://visualstudio.microsoft.com/downloads/). You can download Visual Studio Code [here](https://code.visualstudio.com/download).
+
+***NOTE: You can use whatever code editor that you want. This project was created and tested with Visual Studio.***
 
 ### Installation
 
